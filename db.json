@@ -1,0 +1,26 @@
+{
+  "pins": [
+    { "id": 1, "tag": "leather", "image": "./img/img1.jpg", "author": "./autors/au1.jpg", "desc": "Leather wallet" },
+    { "id": 2, "tag": "leather", "image": "./img/img2.jpg",  "author": "./autors/au20.jpg", "desc": "Hip bag" },
+    { "id": 3, "tag": "leather", "image": "./img/img3.jpg", "author": "./autors/au2.jpg", "desc": "Belt" },
+    { "id": 4, "tag": "leather", "image": "./img/img4.jpg", "author": "./autors/au3.jpg", "desc": "Coin wallet" },
+    { "id": 5, "tag": "leather", "image": "./img/img5.jpg", "author": "./autors/au4.jpg", "desc": "Nesser" },
+    { "id": 6, "tag": "wear", "image": "./img/img6.jpg", "author": "./autors/au5.jpg", "desc": "Sweater" },
+    { "id": 7, "tag": "wear", "image": "./img/img7.jpg", "author": "./autors/au6.jpg", "desc": "Jeans" },
+    { "id": 8, "tag": "wear", "image": "./img/img8.jpg", "author": "./autors/au7.jpg", "desc": "Jacket" },
+    { "id": 9, "tag": "wear", "image": "./img/img9.jpg", "author": "./autors/au8.jpg", "desc": "Hat" },
+    { "id": 10, "tag": "wear", "image": "./img/img10.jpg", "author": "./autors/au9.jpg", "desc": "Gloves" },
+    { "id": 11, "tag": "watch", "image": "./img/img11.jpg", "author": "./autors/au10.jpg", "desc": "Apple watch" },
+    { "id": 12, "tag": "watch", "image": "./img/img12.jpg", "author": "./autors/au11.jpg", "desc": "Tissot watch" },
+    { "id": 13, "tag": "watch", "image": "./img/img13.jpg", "author": "./autors/au12.jpg", "desc": "Rolex watch" },
+    { "id": 14, "tag": "watch", "image": "./img/img14.jpg", "author": "./autors/au13.jpg", "desc": "Omega watch" },
+    { "id": 15, "tag": "watch", "image": "./img/img15.jpg", "author": "./autors/au14.jpg", "desc": "Casio watch" },
+    { "id": 16, "tag": "shoe", "image": "./img/img16.jpg", "author": "./autors/au15.jpg", "desc": "Classic shoes" },
+    { "id": 17, "tag": "shoe", "image": "./img/img17.jpg", "author": "./autors/au16.jpg", "desc": "Boots" },
+    { "id": 18, "tag": "shoe", "image": "./img/img18.jpg", "author": "./autors/au17.jpg", "desc": "Converse" },
+    { "id": 19, "tag": "shoe", "image": "./img/img19.jpg", "author": "./autors/au18.jpg", "desc": "Adidas" },
+    { "id": 20, "tag": "shoe", "image": "./img/img20.jpg", "author": "./autors/au19.jpg", "desc": "Nike" }
+
+  ]
+}
+

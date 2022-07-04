@@ -1,0 +1,205 @@
+@import url(../style/normalize.css);
+@import url(../style/buttons.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@600;700;900&display=swap');
+
+
+body {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.headerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 50%
+}
+
+@media screen and (max-width: 600px) {
+    
+    .headerFlex {
+        gap: 10px;
+        padding: 5px;
+    }
+    body {
+        margin: 0;
+    }
+}
+
+.logoImg {
+    height: auto;
+    width: 24px;
+}
+
+.logoButton {
+    height: 24px;
+    border: none;
+    width: 24px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.search {
+    border: 3px solid rgb(163, 163, 163);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 6px;
+    padding-left: 16px;
+    height: 40px;
+    background-color: rgb(235, 232, 232);
+    color: #2c2a2a;
+    width: 100%;
+}
+
+.search:hover {
+    background-color: #ddd;
+}
+
+.dropbtn {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 6px;
+    height: 48px;
+    background-color: #3498DB;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtnPinMenu {
+    width: 135px;
+}
+
+.dropbtnComplaint {
+    height: 28px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 5px;
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.dropdownShow {
+    display: block;
+}
+
+.descSelectShow {
+    display: block;
+}
+
+.complaintShow {
+    display: block;
+}
+
+
+.pinGrid {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 0 20px;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 236px);
+    grid-template-rows: minmax(20px, auto);
+    align-items: center;
+    justify-content: center;
+}
+
+.pinContainer {
+    display: flex;
+    flex-direction: column;
+    width: 236px;
+}
+
+
+.imgContainer {
+    position: relative;
+}
+
+.pinImg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pinBtn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.pinBtn:hover {
+    background-color: #2980B9;
+}
+
+
+.autorContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.autorImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+.banned {
+    display: none;
+}
+
+.hiddenPinMenu {
+    display: none;
+}
+
+.pinTag {
+    display: none;
+}

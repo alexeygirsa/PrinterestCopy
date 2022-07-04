@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.493e6e98.css">
+    <title>Document</title>
+<script src="/style.493e6e98.js"></script></head>
+
+<body>
+    <div class="headerFlex">
+        <button id="mainPage" class="logoButton">
+            <img class="logoImg" id="mainPage" src="/logo.cecc779a.png">
+        </button>
+        <input class="search" type="text" id="search" name="toDo" placeholder="Search">
+        <div class="dropdown">
+            <button id="dropdown" class="dropbtn">Select desc</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Desc 1</a>
+                <a href="#">Desc 2</a>
+                <a href="#">Desc 3</a>
+                <a href="#">Banned</a>
+            </div>
+        </div>
+    </div>
+
+    <ul class="pinGrid">
+
+    </ul>
+
+
+    <template id="template">
+        <li id="pinCont" class="pinContainer">
+            <div class="imgContainer">
+                <img id="pinImg" class="pinImg" src="" alt="Image">
+                <button id="pinBtn" class="pinBtn"> </button>
+                <div class="pinMenu hiddenPinMenu" id="pinMenu">
+                    <div class="complaintsContainer">
+                        <button id="complainBtn" class="dropbtn dropbtnPinMenu">Complain</button>
+                        <div class="pinMenu complaintsMenu" id="complainSelect">
+                            <p class="complaintsHeader">Complaints?<br>Let us know</p>
+                            <div class="complaintsContent ">
+                                <label class="container">Sexual content
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+            
+                                <label class="container">Violent content
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+            
+                                <label class="container">Dangerous acts
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+            
+                                <label class="container">Spam or misleading
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="complaintsButtonsContainer">
+                                <button id="complainClose" class="dropbtn dropbtnComplaint" "="">Cancel</button>
+                                <button id="sendComplaint" class="dropbtn dropbtnComplaint">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button id="descSelectbtn" class="dropbtn dropbtnPinMenu" type="button" "="">Add to desc</button>
+                        <div id="descSelect" class="dropdown-content">
+                            <a href="#">Desc 1</a>
+                            <a href="#">Desc 2</a>
+                            <a href="#">Desc 3</a>
+                        </div>
+                    </div>
+                    <button id="pinMenuClose" class="dropbtn dropbtnPinMenu">Close</button>
+                    <div class="pinMenu complaintsMenu">
+                        <p>Complaints?<br>Let us know</p>
+                        <div class="complaintsContent ">
+                            <label class="container">Sexual content
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+            
+                            <label class="container">Violent content
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+            
+                            <label class="container">Dangerous acts
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+            
+                            <label class="container">Spam or misleading
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="autorContainer">
+                <img id="autorImg" class="autorImg" src="" alt="Autor">
+                <p id="description"></p>
+            </div>
+            <p class="pinTag"></p>
+        </li>
+    </template>
+
+
+
+
+    <script type="text/javascript" src="/src.e31bb0bc.js"></script>
+</body>
+
+</html>
